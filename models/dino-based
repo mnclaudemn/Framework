@@ -1,1 +1,11 @@
+'''
+Source: official DINO repo
+https://github.com/facebookresearch/dino
 
+DINO (Official Facebook Implementation)
+✔ BEST METHOD (NO RISK OF ERROR)
+'''
+import torch
+
+model = torch.hub.load('facebookresearch/dino:main', 'dino_vits16')
+model.eval()
