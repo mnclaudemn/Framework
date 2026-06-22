@@ -1,4 +1,4 @@
-#We use SE Block (paper: Hu et al.)
+#We use SE Block (paper: Hu et al.)  — it is the canonical SE implementation used in papers.
 import torch
 import torch.nn as nn
 
